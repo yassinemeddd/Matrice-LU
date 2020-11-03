@@ -21,3 +21,11 @@ void lu::decompositionLU()
 		}
 	}
 }
+const Matrix& lu::getMatrixU() const
+{
+	return m_matrixU;
+}
+const Matrix& lu::getMatrixL() const
+{
+	return m_matrixL;
+}

@@ -10,7 +10,7 @@ int main()
 	std::cin>>matriceA;
 	lu matrice(matriceA,size);
 	matrice.decompositionLU();
-	std::cout<<matrice.m_matrixL<<"\n"<<matrice.m_matrixU<<std::endl;
+	std::cout<<matrice.getMatrixL()<<"\n"<<matrice.getMatrixU()<<std::endl;
 
 	return 0;
 }
